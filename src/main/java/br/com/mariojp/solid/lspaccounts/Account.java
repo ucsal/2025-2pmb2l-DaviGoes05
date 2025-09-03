@@ -7,11 +7,11 @@ public class Account {
         this.balance += amount;
     }
 
-    public void withdraw(double amount){
-        this.balance -= amount;
-    }
-
     public double getBalance(){
         return balance;
+    }
+
+    void withdraw(double amount) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
